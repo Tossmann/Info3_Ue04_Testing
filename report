@@ -1,3 +1,13 @@
 Getting started:
 - kein class body
-- grenzen sind falsch gesetzt -> ab -1 werden die Zahlen als negativ erkannt 
+- grenzen sind falsch gesetzt -> ab -1 werden die Zahlen als negativ erkannt
+
+black box test:
+- 101 kommt B raus und nicht Error
+- es kommt immer B raus wenn man größer als 100 ist
+- 100 kommt A raus also korrekt
+- ab 50 und kleiner kommt F raus
+- eigentlich müsste D rauskommen und nicht
+- floating Point numbers funktionieren auch
+- Fehler bei über 100 und ab 50 kleiner funktioniert das Programm nicht
+- Exception entsteht bei falscher Eingabe z.b. zwei mal punkte 
